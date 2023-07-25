@@ -1,0 +1,102 @@
+.calculator {
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para os botões de número */
+.calculator .buttons .btn-group .number {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Estilos para o botão de igual */
+.calculator .buttons .equal {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Estilos para o botão de reset */
+.calculator .buttons input[type="reset"] {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Adicionar alguns espaçamentos entre os botões */
+.calculator .buttons .btn-group {
+    margin-bottom: 5px;
+}
+
+.calculator #display {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: right;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.calculator .buttons .btn-group .operator,
+.calculator .buttons .btn-group .equal {
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.calculator .buttons .btn-group .operator:hover,
+.calculator .buttons .btn-group .equal:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Restante do código no arquivo style.css */
+
+/* Estilos para os botões "C" e "←" */
+.calculator .buttons .btn-group .clear,
+.calculator .buttons .btn-group .backspace {
+    background-color: #dc3545;
+    color: #fff;
+    border: 1px solid #dc3545;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.calculator .buttons .btn-group .clear:hover,
+.calculator .buttons .btn-group .backspace:hover {
+    background-color: #c82333;
+    border-color: #c82333;
+}
